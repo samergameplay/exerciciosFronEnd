@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;   /* remove os pontos */
+    text-decoration: none;   /* remove o sublinhado */
+}
+
+body {
+    justify-content: center; /* centraliza na horizontal */
+    align-items: center;     /* centraliza na vertical */
+    margin: 0;               /* remove espaçamentos padrão */
+    text-align: center;      /* alinha textos ao centro */
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(115, 215, 217, 1) 50%, rgba(255, 255, 227, 1) 100%, rgba(237, 221, 83, 1) 100%);
+}
+
+h1, p {
+    color: white;           /* cor do texto */
+    margin: 10px 0;         /* espaçamento em cima e embaixo */
+    font-family: 'Arial', sans-serif; /* estilo da fonte */
+}
+
+#links {
+    padding: 10px;
+    margin: 0;
+}
+
+#links a {
+    color: white;            /* cor padrão do link */
+    font-weight: bold;       /* deixa em negrito */
+}
+
+#links a:hover {
+    color: lightblue;        /* cor quando passa o mouse */
+    text-decoration: underline; /* sublinhado ao passar o mouse */
+}
+
+#links li:last-child {
+    margin-right: 0;
+}
+
+.foto_pessoal img {
+    width: 200px;   /* largura */
+    height: 200px;   /* altura */
+    border-radius: 10px; /* cantos arredondados */
+}
